@@ -1,0 +1,1301 @@
+.container h3{
+    text-align: center;
+}
+
+main{
+    padding: 1em;
+    align-items: center;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: bottom;
+    align-items: center;
+}
+.logout{
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 20px;
+    top: 85px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements horizontally */
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #77C3E3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.signup{
+    margin: 0 auto;
+}
+.login-container2 {
+    background-color: #77C3E3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:600px;
+    height:fit-content;
+    margin: 0 auto;
+}
+
+form.signup {
+    display:inline-grid;
+    flex-direction: column;
+    width: 250px;
+    padding-top: 30px;
+    padding-left:70px;
+    text-align: center;
+}
+.reset-container{
+    background-color: #77C3E3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+form.reset {
+    display:inline-grid;
+    flex-direction: column;
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+form.login {
+    display:inline-grid;
+    flex-direction: column;
+    width: 250px;
+
+    padding-top: 30px;
+    margin: 0 auto;
+}
+form.login input {
+    width: 225px;
+}
+form.reset button{
+    width: fit-content;
+}
+
+label {
+    margin-bottom: 8px;
+    margin-left: 7px;
+    text-align: left;
+}
+.anagrafica {
+    text-align: left;
+    width: 200px;
+}
+
+.dati
+{
+    width:200px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 200px;
+}
+
+.button-container {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+
+}
+
+button:hover {
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+.nuovo-esame button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.titolo{
+    font-size: 50px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: #77C3E3;
+    color: #0A4191;
+    padding: 2em;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    float: left;
+}
+
+header nav a {
+    color: #0A4191;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+.logo-home{
+    width: 300px; /* Regola la larghezza dell'immagine */
+    height: 300px;
+}
+.nuovo-esame {
+    border: 1px solid #ddd;
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.nuovo-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+
+}
+
+.nuovo-esame form {
+    margin-top: 1em;
+    margin-left: 50px;
+    width: 800px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.nuovo-esame label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.nuovo-esame input,
+.nuovo-esame select,
+.nuovo-esame textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 700px;
+    justify-content: center;
+
+
+}
+
+.nuovo-esame button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: 80px;
+}
+textarea{
+    width: 700px;
+    height: 100px;
+    max-width: 700px;
+    max-height: 100px;
+    min-width: 700px;
+}
+footer {
+    background-color: #77C3E3;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+.menu-tendina {
+    position: relative;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.menu-tendina-titolo {
+    text-decoration: none;
+    color: #0A4191;
+    cursor: pointer;
+}
+
+.menu-tendina-titolo:hover {
+    text-decoration: underline;
+}
+
+.menu-tendina-contenuto {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 160px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.menu-tendina:hover .menu-tendina-contenuto {
+    visibility: visible;
+}
+
+.menu-tendina-contenuto li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+.menu-tendina-contenuto li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-tendina-contenuto li a:hover {
+    text-decoration: underline;
+}
+
+.presentazione {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.presentazione p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.presentazione a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.vantaggi {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.vantaggi ul {
+    flex: 2;
+}
+
+.user-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 350px;
+    text-align: left;
+    background-color: #77C3E3;
+}
+
+.user-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-info li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.user-info button{
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #FFFFFF;
+    color: #0A4191;
+    margin-left: 110px;
+}
+
+main h1{
+    text-align: center;
+}
+.user-info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+.programma-esame {
+    border: 1px solid #ddd;
+    width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.programma-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+
+}
+
+.programma-esame form {
+    margin-top: 1em;
+    margin-left: 50px;
+    width: 700px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.programma-esame label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.programma-esame input,
+.programma-esame select,
+.programma-esame textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 700px;
+    justify-content: center;
+
+
+}
+
+.programma-esame button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+
+.programma-esame button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+
+.crea-esercizio {
+    border: 1px solid #ddd;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.crea-esercizio h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.crea-esercizio form {
+    margin-top: 1em;
+    margin-left: 50px;
+    width: 700px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.crea-esercizio label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.crea-esercizio input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100px;
+    justify-content: center;
+}
+.crea-esercizio select,
+.crea-esercizio textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 700px;
+    justify-content: center;
+}
+
+.crea-esercizio button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+
+.crea-esercizio button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+.chartContainer{
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.statistiche  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+main.statistiche{
+    height:535px;
+}
+
+.chartContainer button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+
+.chartContainer button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+.pers-esame {
+    border: 1px solid #ddd;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.pers-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.pers-esame button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+
+.pers-esame button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+
+.risposte1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.risposte1 textarea{
+    width: 230px;
+    height: 15px;
+    max-width: 230px;
+    max-height: 15px;
+    min-width: 230px;
+    margin-bottom: 10px;
+    min-height: 15px;
+}
+
+.risposte2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.risposte2 textarea{
+    width: 230px;
+    height: 15px;
+    max-width: 230px;
+    max-height: 15px;
+    min-height: 15px;
+    min-width: 230px;
+    margin-bottom: 10px;
+}
+
+.r_corretta textarea{
+    width: 700px;
+    height: 15px;
+    max-width: 700px;
+    max-height: 15px;
+    min-width: 700px;
+    margin-bottom: 10px;
+    min-height: 15px;
+}
+
+.biblioteca  {
+    padding: 0;
+    border: 1px solid #ddd;
+    width: fit-content;
+    margin: 0 auto;
+    max-height: 500px;
+}
+
+.biblioteca h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+
+}
+
+.biblioteca label {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.biblioteca table
+{
+    width:1000px;
+    text-align:center;
+}
+
+.biblioteca button {
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #FF0000;
+    background-color: #FF0000;
+    color: #000000;
+    width: auto;
+    height:auto;
+    text-align: center;
+    align-items: center;
+}
+
+.biblioteca button:hover{
+    background-color: #800000;
+    color: #FFFFFF;
+}
+
+
+form.update{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #77C3E3;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+}
+.update button{
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.update button:hover {
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+
+.svolgi-esame {
+    border: 1px solid #ddd;
+    width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.svolgi-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.svolgi-esame h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.svolgi-esame form {
+    margin-top: 1em;
+    margin-left: 50px;
+    width: 700px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.svolgi-esame label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.svolgi-esame input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100px;
+    justify-content: center;
+}
+
+.svolgi-esame button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+
+.svolgi-esame button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+/*prova biblioteca aspetto
+ */
+
+.biblioteca {
+    border: 1px solid #FFFFFF;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+.esercizi-table-body{
+    border: 1px solid #ddd;
+    width: 1000px;
+}
+
+
+.delete-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.buttoncreaeser button
+{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+.buttoncreaeser button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+.buttoncreaeser a
+{
+    text-decoration:none;
+}
+
+
+
+.buttoncreaeser {
+    margin-top: 20px;
+}
+
+
+.buttoncreaeser a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #77C3E3;
+    background-color: #77C3E3;
+    color: #0A4191;
+    width: auto;
+}
+
+.buttoncreaeser a:hover {
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+/*migliora aspetto modifica esami*/
+
+.modifica-esame {
+    border: 1px solid #ffffff;
+    width: 1000px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+
+.modifica-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+
+.delete-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.button a {
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.mod-button {
+    background-color: #ffffff;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.mod-button:hover {
+    background-color:#FFFFFF;
+}
+
+
+/*insdomande*/
+.view-esercizi {
+    display: table;
+    border: 1px solid #FFFFFF;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+.view-esercizi h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+
+.esercizi-table-container {
+    width: 1000px;
+}
+
+.esercizi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.esercizi-table th,
+.esercizi-table-body td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 166px;
+}
+
+.esercizi-table th {
+    background-color: #f2f2f2;
+}
+
+.add-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.aggiungi-esercizi-table-body button{
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.aggiungi-esercizi-table-body button:hover {
+    background-color: #357437;
+}
+
+.esami-table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+.esami-table th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 90px;
+}
+.esami-table-body td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 130px;
+    height: 25px;
+}
+
+.esami-table th {
+    background-color: #f2f2f2;
+}
+.esami-table-body{
+    border: 1px solid #ddd;
+    width: 1000px;
+}
+
+.aggiungi-esercizi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.aggiungi-esercizi-table th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 160px;
+}
+.aggiungi-esercizi-table-body td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 160px;
+}
+
+.aggiungi-esercizi-table th {
+    background-color: #f2f2f2;
+}
+
+
+.button-profile{
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+.button-profile a{
+    text-decoration: none;
+}
+
+ .button-profile:hover{
+     background-color: #0A4191;
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+
+.button-profile a:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.modifica-dati-esame{
+    display: flex;
+    flex-direction: column;
+}
+
+.modifica-dati-esame button{
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #77C3E3;
+}
+
+.modifica-dati-esame button:hover {
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+
+.ins-esercizi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ins-esercizi-table th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 160px;
+}
+.ins-esercizi-table-body td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 180px;
+}
+
+.ins-esercizi-table th {
+    background-color: #f2f2f2;
+}
+
+.pubblica-esame {
+    border: 1px solid #ffffff;
+    width: 1110px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+
+.pubblica-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.pubblica-esame-selezionato{
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr 1fr;
+    padding-left: 20%;
+    height: 440px;
+}
+
+.download{
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 4px;
+}
+.download:hover{
+    background-color: #6c757d;
+    color: #FFFFFF;
+}
+.pub-button{
+    padding: 7px;
+    width: fit-content;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#c0c0c0;
+
+}
+
+.pub-button:hover{
+    background-color: #6c757d;
+    color: #FFFFFF;
+}
+.elimina-esame{
+    border: 1px solid #ffffff;
+    width: 1000px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+
+.elimina-esame h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0A4191;
+}
+
+.error-message {
+    color: #cc0000;
+}
+
+.modIcon{
+    border: none;
+    cursor: pointer;
+    background-color: #c0c0c0;
+    padding: 5px;
+    border-radius: 4px;
+
+
+}
+.modIcon:hover{
+    background-color: #6c757d;
+    color: #FFFFFF;
+}
+
+.inserisci-codice-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #77C3E3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.inserisci-codice-form label{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20px;
+}
+
+.inserisci-codice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.waitingcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 450px;
+}
+.waitingcontainer-message{
+    display: flex;
+    flex-direction: column;
+    background-color: #77C3E3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    margin-top:50px;
+    align-items: center;
+}
+
+.waitingcontainer-message button{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0A4191;
+    width: auto;
+}
+.waitingcontainer-message button:hover{
+    background-color: #0A4191;
+    color: #FFFFFF;
+}
+.testcontainer{
+    display: flex;
+    padding:10px;
+    margin: 0 auto;
+    width:600px;
+    height: fit-content;
+    background-color:#77C3E3 ;
+    border-radius: 40px;
+
+}
+.dati-esercizio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 50px 20px 50px;
+}
+.risposte{
+    padding-left: 100px;
+    height: 170px;
+}
+.pagina-domande{
+    height: fit-content;
+}
+.consegna-button{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    border-radius: 4px;
+    margin:0 auto;
+    padding: 7px;
+    background-color: #0A4191;
+    color: #FFFFFF;
+    width: fit-content;
+    border-color: #FFFFFF;
+    border: 3px;
+}
+.eser-button{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    margin:0 auto;
+    padding: 7px;
+    background-color: #FFFFFF;
+    color:#0A4191;
+    width: fit-content;
+    border-color: #FFFFFF;
+    border: 3px;
+}
+#eser-button:active{
+    background-color: #0A4191;
+}
+.eser-button-container{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+.testcontainer textarea{
+    width: 380px;
+    height: 130px;
+    max-width: 380px;
+    max-height: 130px;
+    min-height: 130px;
+    min-width: 380px;
+
+}
+.error h5{
+    position: relative;
+    padding:0;
+    margin-top: 0;
+    margin-left: 5px;
+    color: red;
+}
+
+.pub-esami-table {
+    width: 1100px;
+    border-collapse: collapse;
+}
+
+.pub-esami-table th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 100px;
+}
+.pub-esami-table-body td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 110px;
+    height: 25px;
+}
+
+.pub-esami-table th {
+    background-color: #f2f2f2;
+}
+.pub-esami-table-body{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 1100px;
+}
