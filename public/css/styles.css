@@ -152,8 +152,8 @@ button:hover {
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
 }
 .titolo{
@@ -196,8 +196,8 @@ header nav a:hover {
 
 
 .logo-home{
-    width: 300px; /* Regola la larghezza dell'immagine */
-    height: 300px;
+    width: 200px; /* Regola la larghezza dell'immagine */
+    height: 200px;
 }
 .nuovo-esame {
     border: 1px solid #ddd;

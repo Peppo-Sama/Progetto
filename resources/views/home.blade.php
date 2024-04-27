@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-    <h1 class="titolo"><b>TestHub</b></h1>
+    <h1 class="titolo"><b>ExerciseApp</b></h1>
     <nav>
         <a href="{{ route('home') }}">Home</a>
         <a href="{{ route('profile') }}">Area Utente</a>
@@ -33,15 +33,15 @@
 </header>
 <main>
     <section class="presentazione">
-        <h2>Benvenuti su TestHub!</h2>
+        <h2>Benvenuti in ExerciseApp!</h2>
         <p>
-            TestHub è la piattaforma di apprendimento che rivoluziona il modo di insegnare e apprendere.
+        ExerciseApp è la piattaforma di apprendimento che rivoluziona il modo di insegnare e apprendere.
         </p>
-        <h2>Perché scegliere TestHub?</h2>
+        <h2>Perché scegliere ExerciseApp?</h2>
     </section>
 
     <section class="vantaggi">
-        <img class="logo-home" src="{{ asset('img/TESTHUB-LOGO tondo.png') }}">
+        <img class="logo-home" src="{{ asset('img/ExerciseLogo.png') }}">
 
         <ul>
             <li>
@@ -60,7 +60,7 @@
     </section>
 </main>
 <footer>
-    <p>&copy; 2024 TestHub</p>
+    <p>&copy; 2024 ExerciseApp</p>
 </footer>
 </body>
 </html>
