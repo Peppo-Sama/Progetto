@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-    <h1 class="titolo"><b>ExerciseApp</b></h1>
+    <h1 class="titolo"><b>TestHub</b></h1>
     <nav>
         <a href="{{ route('home') }}">Home</a>
         <a href="{{ route('profile') }}">Area Utente</a>
@@ -24,20 +24,21 @@
             </ul>
         </div>
         <a href="{{ route('biblioteca') }}">Biblioteca</a>
-        <form method="POST" action="{{ route('logout') }}">
-            @csrf
-            <button  class="logout" type="submit">Logout</button>
-        </form>
+        <form action="{{ route('logout') }}" method="GET">
+    @csrf
+    <button class="logout" type="submit">Logout</button>
+</form>
+
     </nav>
 
 </header>
 <main>
     <section class="presentazione">
-        <h2>Benvenuti in ExerciseApp!</h2>
+        <h2>Benvenuti su TestHub!</h2>
         <p>
-        ExerciseApp è la piattaforma di apprendimento che rivoluziona il modo di insegnare e apprendere.
+            TestHub è la piattaforma di apprendimento che rivoluziona il modo di insegnare e apprendere.
         </p>
-        <h2>Perché scegliere ExerciseApp?</h2>
+        <h2>Perché scegliere TestHub?</h2>
     </section>
 
     <section class="vantaggi">
@@ -60,7 +61,7 @@
     </section>
 </main>
 <footer>
-    <p>&copy; 2024 ExerciseApp</p>
+    <p>&copy; 2024 TestHub</p>
 </footer>
 </body>
 </html>
